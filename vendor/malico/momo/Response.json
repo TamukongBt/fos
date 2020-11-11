@@ -1,0 +1,38 @@
+[
+    // Confirmed Transfer
+    {
+        "ReceiverNumber": "237676956703",
+        "StatusCode": "01",
+        "Amount": "100",
+        "TransactionID": "815698323",
+        "ProcessingNumber": "156535572944128768756157490",
+        "OpComment": "Transaction completed DEBIT and CREDIT",
+        "StatusDesc": "Successfully processed transaction.",
+        "SenderNumber": "237676956703",
+        "OperationType": "RequestPaymentIndividual"
+    },
+    // Reject Transaction
+    {
+        "ReceiverNumber": "237676956703",
+        "StatusCode": "100",
+        "Amount": "100",
+        "TransactionID": "815726584",
+        "ProcessingNumber": "156535659091537441859177855",
+        "OpComment": "Transaction failed",
+        "StatusDesc": "General failure.",
+        "SenderNumber": "237676956703",
+        "OperationType": "RequestPaymentIndividual"
+    },
+    // Ignored Transaction
+    {
+        "ReceiverNumber": "237676956703",
+        "StatusCode": "103",
+        "Amount": "100",
+        "TransactionID": null,
+        "ProcessingNumber": "15653566948256672261381854",
+        "OpComment": "Transaction failed",
+        "StatusDesc": "Error: Duplicate transaction ID.",
+        "SenderNumber": "237676956703",
+        "OperationType": "RequestPaymentIndividual"
+    }
+]
